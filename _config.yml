@@ -1,6 +1,10 @@
-theme: minima
 title: Lebanon Zoning Ordinance
 description: A static interface for the City of Lebanon's zoning regulations.
 theme: minima
 show_excerpts: false
 paginate: false
+
+# Navigation menu links
+header_pages:
+  - index.md
+  - ordinance.md
