@@ -13,4 +13,3 @@ Click an article to view its sections:
 - [Article II: Zoning Districts](article-2)
 - [Article III: Land Use Regulations](article-3)
 - [Article IV: Special Provisions](article-4)
-
