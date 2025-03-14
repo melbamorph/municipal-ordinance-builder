@@ -3,15 +3,14 @@ title: Lebanon Zoning Ordinance
 layout: default
 ---
 
-# Welcome to the Lebanon Zoning Ordinance
+# City of Lebanon Zoning Ordinance
 
-This site provides a static, structured interface for viewing zoning regulations in the City of Lebanon.
+## Table of Contents
 
-[View the full ordinance](ordinance)
+Click an article to view its sections:
 
-## How to Use:
-- Use the navigation links to browse different sections.
-- Search for specific terms (coming soon).
-- Download ordinance sections as PDFs (coming soon).
+- [Article I: General Provisions](article-1)
+- [Article II: Zoning Districts](article-2)
+- [Article III: Land Use Regulations](article-3)
+- [Article IV: Special Provisions](article-4)
 
----
