@@ -7,18 +7,15 @@ layout: default
 
 [⬅ Back to Table of Contents](index.md)
 
-<details>
-<summary><strong>1.1 Purpose</strong></summary>
-
+## [1.1 Purpose](#purpose)
 The purpose of this zoning ordinance is to regulate land use and development within the City of Lebanon, ensuring orderly growth and protecting public welfare.
 
-</details>
+## [1.2 Definitions](#definitions)
+### [1.2.1 Building](#building)
+Any structure used for shelter, storage, or occupancy.
 
-<details>
-<summary><strong>1.2 Definitions</strong></summary>
+### [1.2.2 Lot](#lot)
+A parcel of land designated for a particular use.
 
-**Building:** Any structure used for shelter, storage, or occupancy.  
-**Lot:** A parcel of land designated for a particular use.  
-**Setback:** The minimum required distance between a structure and property boundary.
-
-</details>
+### [1.2.3 Setback](#setback)
+The minimum required distance between a structure and property boundary.
