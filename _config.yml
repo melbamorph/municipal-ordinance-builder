@@ -4,7 +4,6 @@ theme: minima
 show_excerpts: false
 paginate: false
 
-# Navigation menu links
 header_pages:
   - index.md
   - ordinance.md
