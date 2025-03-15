@@ -33,8 +33,13 @@ water, sewerage, energy schools, recreation, parks, and child day care;
 - Provide a range of economic opportunities and services; 
 - Encourage the preservation of agricultural lands and buildings; and 
 - Encourage energy-efficient land uses and installation of renewable energy 
-systems. 
+systems.
+
 ## [103 Applicability](#applicability)
 No land in the City of Lebanon shall hereafter be used for building, development or otherwise and 
 no **structure** shall be erected, enlarged, materially altered, moved or used, except in 
 conformance with this Ordinance. 
+
+## [104 Origins](#origins)
+This Ordinance repeals and replaces the Zoning Ordinance currently in effect in the City of 
+Lebanon, which was adopted on December 5, 1990, and amended several times. 
