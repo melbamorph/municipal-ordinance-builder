@@ -1,5 +1,5 @@
 ---
-title: Lebanon Zoning Ordinance
+title: City of Lebanon Zoning Ordinance
 layout: default
 ---
 
@@ -9,7 +9,17 @@ layout: default
 
 Click an article to view its sections:
 
-- [Article I: General Provisions](article-1)
-- [Article II: Zoning Districts](article-2)
-- [Article III: Land Use Regulations](article-3)
-- [Article IV: Special Provisions](article-4)
+- [Article I: Introduction](article-1)
+- [Article II: General Provision](article-2)
+- [Article III: Use Districts](article-3)
+- [Article IV: Overlay Districts](article-4)
+- [Article V: Subdivisions and Planned Developments](article-5)
+- [Article VI: Additional Standards for Specific Uses](article-6)
+- [Article VII: Non-Conformities](article-7)
+- [Article VIII: Board of Adjustment](article-8)
+- [Article IX: Administration and Enforcement](article-9)
+- [Article X: Miscellaneous Provisions](article-10)
+
+- [Appendix A: Definitions](#appendix-a)
+- [Appendix B: Key to HIS Soil Types](#appendix-b)
+- [Appendix C: Historic District Map](#appendix-c)
