@@ -1,5 +1,5 @@
 ---
-title: Article I - General Provisions
+title: Article I - Introduction
 layout: default
 ---
 
@@ -7,7 +7,7 @@ layout: default
 
 [⬅ Back to Table of Contents](index.md)
 
-## [100 Introduction](#introduction)
+## [100 Title](#title)
 This Ordinance may be known and may be cited as "Zoning Ordinance of the City of Lebanon, New Hampshire.
 
 ## [101 Authority](#authority)
