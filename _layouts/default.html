@@ -1,2 +1,28 @@
-<script src="{{ '/assets/js/copy-link.js' | relative_url }}"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
 
+<header>
+    <h1><a href="{{ '/' | relative_url }}">Lebanon Zoning Ordinance</a></h1>
+    <nav>
+        <ul>
+            <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/article-1.html' | relative_url }}">Article I</a></li>
+            <li><a href="{{ '/article-2.html' | relative_url }}">Article II</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    {{ content }}
+</main>
+
+<script src="{{ '/_includes/copy-link.js' | relative_url }}"></script>
+</body>
+</html>
