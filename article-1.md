@@ -3,7 +3,7 @@ title: Article I - Introduction
 layout: default
 ---
 
-# Article I: General Provisions
+# Article I: Introduction
 
 [⬅ Back to Table of Contents](index.md)
 
