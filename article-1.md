@@ -36,5 +36,5 @@ water, sewerage, energy schools, recreation, parks, and child day care;
 systems. 
 ## [103 Applicability](#applicability)
 No land in the City of Lebanon shall hereafter be used for building, development or otherwise and 
-no structure shall be erected, enlarged, materially altered, moved or used, except in 
+no **structure** shall be erected, enlarged, materially altered, moved or used, except in 
 conformance with this Ordinance. 
