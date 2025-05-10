@@ -1,2 +1,2 @@
-# lebanon-zoning-ordinance
-Beta build of a static interface for the City of Lebanon Zoning Ordinance
+# municipal-ordinance-builder
+Beta build of a static interface for municipalities to host their zoning ordinance.
