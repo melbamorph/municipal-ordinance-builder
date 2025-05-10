@@ -1,0 +1,21 @@
+# _data/municipality.yml
+
+# Display name of the municipality (shown in header, <title> tag, etc.)
+name: "City of ______"
+
+# Base URL (if the site is served from a subpath).
+# Keep empty ("") if you use GitHub Pages root (e.g. username.github.io/repo).
+baseurl: ""
+
+# Path to your logo (optional). Place your logo in assets/ if you use one.
+logo: "/assets/logo.png"
+
+# Navigation menu: ordered list of label + URL pairs
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Article I"
+    url: "/article-1.html"
+  - title: "Article II"
+    url: "/article-2.html"
+  # …continue for Articles III–X, Appendices, etc.
