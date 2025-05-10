@@ -3,26 +3,45 @@ t<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} | {{ site.data.municipality.name }}</title>
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 </head>
 <body>
 
 <header>
-    <h1><a href="{{ '/' | relative_url }}">Lebanon Zoning Ordinance</a></h1>
-    <nav>
-        <ul>
-            <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/article-1.html' | relative_url }}">Article I</a></li>
-            <li><a href="{{ '/article-2.html' | relative_url }}">Article II</a></li>
-        </ul>
-    </nav>
+  <div class="site-brand">
+    {% if site.data.municipality.logo %}
+      <img
+        src="{{ site.data.municipality.logo | prepend: site.baseurl }}"
+        alt="{{ site.data.municipality.name }} logo"
+      />
+    {% endif %}
+    <h1>{{ site.data.municipality.name }}</h1>
+  </div>
+
+  <nav>
+    <ul>
+      {% for item in site.data.municipality.nav %}
+        <li>
+          <a href="{{ item.url | prepend: site.data.municipality.baseurl }}">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
 </header>
+
 
 <main>
     {{ content }}
 </main>
 
-<script src="{{ '/assets/copy-link.js' | relative_url }}"></script>
+<link
+  rel="stylesheet"
+  href="{{ '/assets/main.css' | relative_url }}" 
+/>
+<script src="{{ '/assets/js/copy-link.js' | relative_url }}"></script>
+
 </body>
 </html>
