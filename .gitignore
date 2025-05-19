@@ -1,0 +1,15 @@
+# Build output
+_site/
+
+# Bundler dependencies
+.bundle/
+vendor/bundle/
+vendor/cache/
+
+# Jekyll caches
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS and editor files
+.DS_Store
