@@ -48,6 +48,6 @@ reference or starting point for your own content.
 
 ### Deployment
 
-The repository includes GitHub Actions workflows (`jekyll.yml` and
-`jekyll-gh-pages.yml`) that automatically build the site with Jekyll and deploy
-it to GitHub Pages whenever changes are pushed to the `main` branch.
+The repository includes a GitHub Actions workflow (`jekyll-gh-pages.yml`) that
+automatically builds the site with Jekyll and deploys it to GitHub Pages
+whenever changes are pushed to the `main` branch.
