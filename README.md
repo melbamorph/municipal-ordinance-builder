@@ -1,20 +1,26 @@
 # municipal-ordinance-builder
-Beta build of a static interface for municipalities to host their zoning ordinance.
-It is powered by [Jekyll](https://jekyllrb.com/) and renders pages from simple
-Markdown files. The project aims to make it easy for local governments to
-publish ordinances online without needing a complex CMS.
 
-## Getting started
 
-### Install dependencies
-Install Ruby gems with Bundler:
+A static Jekyll site template that municipalities can use to publish zoning ordinances online. The repository contains example articles and configuration files you can adapt for your own city or town.
+
+## Prerequisites
+
+- **Ruby** and **Bundler** installed on your system (see versions in the `Gemfile`).
+- Any system libraries required by Jekyll (for example `build-essential` on Debian/Ubuntu).
+
+## Installation
+
+Clone the repository and install dependencies:
 
 ```bash
+git clone <repo_url>
+cd municipal-ordinance-builder
 bundle install
 ```
 
-### Run the local server
-Start a live Jekyll server for development:
+## Local development
+
+Start a live server to preview the site:
 
 ```bash
 bundle exec jekyll serve
@@ -22,6 +28,38 @@ bundle exec jekyll serve
 
 The site will be available at `http://localhost:4000`.
 
+## Customization
+
+### Data
+Edit `_data/municipality.yml` to set the name of your municipality, base URL, logo path and navigation links.
+
+### Content
+Update `index.md` and the Markdown files under `articles/` with your ordinance text. The `example/` folder shows a sample layout you can copy.
+
+### Styling
+Modify the templates in `_layouts/` and the stylesheet in `assets/main.css` to adjust the look and feel of the site.
+
+## Deployment (GitHub Pages)
+
+1. Push the repository to GitHub.
+2. Enable GitHub Pages in the repository settings.
+3. If you serve the site from a subpath, set `baseurl` in `_data/municipality.yml` accordingly.
+
+A GitHub Actions workflow in `.github/workflows` builds the site and deploys it automatically.
+
+## File structure
+
+```
+_config.yml              # Jekyll configuration
+_data/municipality.yml   # Site-specific settings
+_layouts/                # HTML layouts used by pages
+articles/                # Markdown files for each ordinance article
+assets/                  # Stylesheets and JavaScript
+Gemfile                  # Ruby dependencies
+```
+
+These sections provide a starting point for creating your own municipal ordinance site.
+=======
 ### Customize your municipality
 Edit `_data/municipality.yml` to configure your site's settings (name, base URL,
 logo path and navigation links). Replace the placeholder values with details for
@@ -51,3 +89,4 @@ reference or starting point for your own content.
 The repository includes a GitHub Actions workflow (`jekyll-gh-pages.yml`) that
 automatically builds the site with Jekyll and deploys it to GitHub Pages
 whenever changes are pushed to the `main` branch.
+
