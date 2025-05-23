@@ -7,4 +7,4 @@ title: Home
 
 - [Article I: Your Title](/article-1.html)
 - [Article II: Your Title](/article-2.html)
-<!-- …through Article X -->
+<!-- add more articles here -->
