@@ -17,6 +17,7 @@ git clone <repo_url>
 cd municipal-ordinance-builder
 bundle install
 ```
+Webrick is included as a development dependency to enable local testing when using Ruby 3 or newer.
 
 ## Local development
 
