@@ -17,6 +17,7 @@ git clone <repo_url>
 cd municipal-ordinance-builder
 bundle install
 ```
+Running `bundle install` also generates the `Gemfile.lock` file.
 
 ## Local development
 
@@ -27,6 +28,16 @@ bundle exec jekyll serve
 ```
 
 The site will be available at `http://localhost:4000`.
+
+
+## Testing
+
+Install Node dependencies and run the test suite:
+
+```bash
+npm install
+npm test
+```
 
 ## Customization
 
