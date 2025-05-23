@@ -13,3 +13,4 @@ vendor/cache/
 
 # OS and editor files
 .DS_Store
+node_modules/

@@ -13,3 +13,8 @@ function copyToClipboard(id) {
         alert('Clipboard API not available.');
     }
 }
+
+// Allow importing in Node.js environments for testing
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = copyToClipboard;
+}
