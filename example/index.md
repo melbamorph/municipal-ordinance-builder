@@ -10,7 +10,7 @@ layout: default
 Click an article to view its sections:
 
 - [Article I: Introduction](article-1)
-- [Article II: General Provision](article-2)
+- [Article II: General Provisions](article-2)
 - [Article III: Use Districts](article-3)
 - [Article IV: Overlay Districts](article-4)
 - [Article V: Subdivisions and Planned Developments](article-5)
