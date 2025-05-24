@@ -17,7 +17,9 @@ git clone <repo_url>
 cd municipal-ordinance-builder
 bundle install
 ```
-Running `bundle install` also generates the `Gemfile.lock` file.
+- Webrick is included as a development dependency to enable local testing when using Ruby 3 or newer.  
+- Running `bundle install` also generates the `Gemfile.lock` file.
+
 
 ## Local development
 
