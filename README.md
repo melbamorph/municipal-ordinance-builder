@@ -69,8 +69,8 @@ assets/                  # Stylesheets and JavaScript
 Gemfile                  # Ruby dependencies
 ```
 
-These sections provide a starting point for creating your own municipal ordinance site.
-=======
+This structure provides a starting point for creating your own municipal ordinance site.
+
 ### Customize your municipality
 Edit `_data/municipality.yml` to configure your site's settings (name, base URL,
 logo path and navigation links). Replace the placeholder values with details for
