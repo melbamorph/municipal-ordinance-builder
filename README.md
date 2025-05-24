@@ -101,3 +101,15 @@ The repository includes a GitHub Actions workflow (`jekyll-gh-pages.yml`) that
 automatically builds the site with Jekyll and deploys it to GitHub Pages
 whenever changes are pushed to the `main` branch.
 
+## Testing
+
+To run the JavaScript tests locally:
+
+```bash
+npm install
+npm test
+```
+
+Before running tests for the first time, execute `bundle install` to install the
+Ruby dependencies and generate the `Gemfile.lock` file.
+
