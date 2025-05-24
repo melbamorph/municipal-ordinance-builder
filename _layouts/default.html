@@ -12,7 +12,7 @@
   <div class="site-brand">
     {% if site.data.municipality.logo %}
       <img
-        src="{{ site.data.municipality.logo | prepend: site.baseurl }}"
+        src="{{ site.data.municipality.logo | prepend: site.data.municipality.baseurl }}"
         alt="{{ site.data.municipality.name }} logo"
       />
     {% endif %}
