@@ -17,6 +17,7 @@ git clone <repo_url>
 cd municipal-ordinance-builder
 bundle install
 ```
+Running `bundle install` also generates the `Gemfile.lock` file.
 
 ## Local development
 
@@ -27,6 +28,16 @@ bundle exec jekyll serve
 ```
 
 The site will be available at `http://localhost:4000`.
+
+
+## Testing
+
+Install Node dependencies and run the test suite:
+
+```bash
+npm install
+npm test
+```
 
 ## Customization
 
@@ -58,8 +69,8 @@ assets/                  # Stylesheets and JavaScript
 Gemfile                  # Ruby dependencies
 ```
 
-These sections provide a starting point for creating your own municipal ordinance site.
-=======
+This structure provides a starting point for creating your own municipal ordinance site.
+
 ### Customize your municipality
 Edit `_data/municipality.yml` to configure your site's settings (name, base URL,
 logo path and navigation links). Replace the placeholder values with details for
@@ -89,4 +100,16 @@ reference or starting point for your own content.
 The repository includes a GitHub Actions workflow (`jekyll-gh-pages.yml`) that
 automatically builds the site with Jekyll and deploys it to GitHub Pages
 whenever changes are pushed to the `main` branch.
+
+## Testing
+
+To run the JavaScript tests locally:
+
+```bash
+npm install
+npm test
+```
+
+Before running tests for the first time, execute `bundle install` to install the
+Ruby dependencies and generate the `Gemfile.lock` file.
 
